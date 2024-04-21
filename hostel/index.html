@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hostel Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header_container">
+      <h1>Hostel Stays</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#facilities">Facilities</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button id="login">Login</button></li>
+          <li><button id="register">Sign-up</button></li>
+
+          <script>
+            document.getElementById("login").addEventListener("click", function() {
+              window.location.href = "index.php";
+            });
+              document.getElementById("register").addEventListener("click", function() {
+              window.location.href = "registration.php";
+            });
+          </script>
+        </ul>
+      </nav>
+    </div>
+
+    
+
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <!-- <img src="/reception.jpg" alt="Reception"> -->
+      <h2>About Us</h2>
+      <p>Welcome to Our Hostel! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam feugiat ligula, et finibus risus mollis ac. Duis nec sollicitudin libero.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service">
+          <img src="./images/reception.jpg" alt="Reception">
+          <h3>24/7 Reception</h3>
+          <p>Our reception desk is open 24/7 to assist you with any needs.</p>
+        </div>
+        <div class="service">
+          <img src="./images/laundry.jpg" alt="Laundry">
+          <h3>Laundry Service</h3>
+          <p>We offer laundry service for our guests for added convenience.</p>
+        </div>
+        <div class="service">
+          <img src="./images/wifi.jpg" alt="Wi-Fi">
+          <h3>Free Wi-Fi Access</h3>
+          <p>Stay connected with complimentary Wi-Fi access throughout the hostel.</p>
+        </div>
+        <div class="service">
+          <img src="./images/security.jpg" alt="Security">
+          <h3>Security</h3>
+          <p>Your safety is our priority. We have security measures in place for your peace of mind.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="facilities" class="section">
+    <div class="container">
+      <h2>Our Facilities</h2>
+      <div class="facilities-grid">
+        <div class="facility">
+          <img src="./images/room.jpg" alt="room">
+          <h3>Common Room</h3>
+          <p>Relax and socialize in our spacious common room.</p>
+        </div>
+        <div class="facility">
+          <img src="./images/study.jpg" alt="study room">
+          <h3>Study Area</h3>
+          <p></p>
+        </div>
+        <div class="facility">
+          <img src="facility3.jpg" alt="">
+          <h3>Outdoor Area</h3>
+          <p>Enjoy the outdoors in our beautiful garden and patio area.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="./images/room.jpg" alt="Image 1">
+        <img src="./images/room2.jpg" alt="Image 2">
+        <img src="./images/reception.jpg" alt="Image 3">
+        <img src="./images/laundry.jpg" alt="Image 4">
+        <img src="./images/study.jpg" alt="Image 5">
+        <img src="./images/security.jpg" alt="Image 6">
+      </div>
+    </div>
+  </section>
+
+  
+<!-- 
+  <footer>
+    <div class="footer">
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <p>If you have any inquiries, feel free to contact us:</p>
+          <ul>
+            <li>Email: HostelStays@gmail.com</li>
+            <li>Phone: +977 9860191917</li>
+            <li>Address: Naxal, Kathmandu, Nepal</li>
+          </ul>
+        </div>
+      </section>
+      <p>&copy; 2024 Hostel Stays</p>
+    </div>
+  </footer> -->
+
+  <footer>
+    <div class="footer_container">
+      <div class="footer-left">
+        <h3>Contact Us</h3>
+        <ul>
+          <li>Email: HostelStays@gmail.com</li>
+          <li>Phone: +977 9860191917</li>
+          <li>Address: Naxal, Kathmandu, Nepal</li>
+        </ul>
+      </div>
+      <div class="footer-middle">
+        <h3>Privacy Policy</h3>
+        <p>Your privacy is important to us. <br>Read our privacy policy for more information.</p>
+      </div>
+      <div class="footer-right">
+        <h3>Get in Touch</h3>
+          <div class="social-icons">
+            <a href="#"><img src="./images/insta.png" alt="Instagram"></a>
+            <a href="#"><img src="./images/facebook.png  " alt="Facebook"></a>
+          </div>
+          <br>
+          <p>&copy; 2024 Hostel Stays</p>
+      </div>
+      <!-- <div class="copyright">
+        <p>&copy; 2024 Hostel Stays</p>
+      </div> -->
+    </div>
+  </footer>
+  
+</body>
+</html>
