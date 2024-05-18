@@ -14,7 +14,7 @@
 <?php } else { ?>
 				
 				<li><a href="registration.php"><i class="fa fa-files-o"></i> User Registration</a></li>
-				<li><a href="index.php"><i class="fa fa-users"></i> User Login</a></li>
+				<li><a href="login.php"><i class="fa fa-users"></i> User Login</a></li>
 				<li><a href="admin"><i class="fa fa-user"></i> Admin Login</a></li>
 				<?php } ?>
 
