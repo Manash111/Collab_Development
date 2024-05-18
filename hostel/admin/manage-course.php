@@ -87,7 +87,7 @@ while($row=$res->fetch_object())
 <td><?php echo $row->course_fn;?></td>
 <td><?php echo $row->posting_date;?></td>
 <td><a href="edit-course.php?id=<?php echo $row->id;?>"><i class="fa fa-edit"></i></a>&nbsp;&nbsp;
-<a href="manage-courses.php?del=<?php echo $row->id;?>" onclick="return confirm("Do you want to delete");"><i class="fa fa-close"></i></a></td>
+<a href="manage-course.php?del=<?php echo $row->id;?>" onclick="return confirm('Do you want to delete');"><i class="fa fa-close"></i></a></td>
 										</tr>
 									<?php
 $cnt=$cnt+1;
