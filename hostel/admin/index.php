@@ -48,6 +48,7 @@ $stmt=$mysqli->prepare("SELECT username,email,password,id FROM admin WHERE (user
 	<link rel="stylesheet" href="css/fileinput.min.css">
 	<link rel="stylesheet" href="css/awesome-bootstrap-checkbox.css">
 	<link rel="stylesheet" href="css/style.css">
+
 </head
 <body>
 	
@@ -56,7 +57,7 @@ $stmt=$mysqli->prepare("SELECT username,email,password,id FROM admin WHERE (user
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3" style="margin-top:4%">
-						<h1 class="text-center text-bold text-light mt-4x">Hostel Management System</h1>
+						<a id="h" href= "../index.html"><h1 class="text-center text-bold text-light mt-4x">Hostel Management System</h1></a>
 						<div class="well row pt-2x pb-3x bk-light">
 							<div class="col-md-8 col-md-offset-2">
 							
